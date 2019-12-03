@@ -23,8 +23,12 @@
 .page__section-traditional {
   text-align: center;
   .section-a-mid {
+    .section-a-mid--img {
+      height: 140px;
+    }
     img {
       max-width: 140px;
+      // width: 100%;
     }
   }
   .section-a-btm {

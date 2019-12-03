@@ -87,6 +87,10 @@
   text-align: center;
 }
 
+.page__section-traditional .section-a-mid .section-a-mid--img {
+  height: 140px;
+}
+
 .page__section-traditional .section-a-mid img {
   max-width: 140px;
 }
