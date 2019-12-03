@@ -39,3 +39,8 @@
   color: $text-primary;
   border-radius: 15px;
 }
+.clearfix::after {
+    clear: both;
+    display: block;
+    content: "";
+  }
