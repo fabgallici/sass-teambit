@@ -83,6 +83,18 @@
   height: 100%;
 }
 
+.page__section-traditional {
+  text-align: center;
+}
+
+.page__section-traditional .section-a-mid img {
+  max-width: 140px;
+}
+
+.page__section-traditional .section-a-btm img {
+  max-width: 280px;
+}
+
 * {
   margin: 0;
   padding: 0;
