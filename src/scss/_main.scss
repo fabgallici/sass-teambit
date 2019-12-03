@@ -55,7 +55,9 @@
 }
 
 .page__section-feedback,
-.page__section-surveys {
+.page__section-surveys,
+.page__section-reviews,
+.page__section-recognition {
   padding: $pd-base 0;
   .section-b-img {
     img {
@@ -74,7 +76,8 @@
   }
 }
 
-.page__section-surveys {
+.page__section-surveys,
+.page__section-recognition {
   .section-b-content {
     float: right;
   }
