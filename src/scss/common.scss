@@ -1,0 +1,30 @@
+
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@mixin btn-primary {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: $btn-primary;
+  color: $text-primary;
+  border-radius: 15px;
+}
