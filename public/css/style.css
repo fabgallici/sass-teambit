@@ -1,3 +1,31 @@
+.header_top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65px;
+}
+
+.header_top_container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.header_top_container .nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+  height: 100%;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -10,5 +38,9 @@ li {
 
 a {
   text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
 }
 

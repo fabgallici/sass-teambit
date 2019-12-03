@@ -1,0 +1,9 @@
+.header_top {
+  @include fixed-top;
+}
+.header_top_container {
+  @include flex-between;
+  .nav {
+    @include flex-between;
+  }
+}
