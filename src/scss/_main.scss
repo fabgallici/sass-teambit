@@ -85,7 +85,8 @@
 
 .page__section-teambit {
   @include flex-column-center;
-
+  background-color: $bg-primary;
+  padding: $pd-base 0;
   .teambit-quote {
     position: relative;
     background: $bg-secondary;
@@ -113,6 +114,15 @@
     float: left;
     margin-right: $mg-min;
   }
-
+  .teambit-links {
+    @include flex-center;
+  }
   
+}
+
+.my_btn-links {
+  margin: 0 $mg-min;
+}
+.my_mail_address {
+  margin: $mg-min 0;
 }
