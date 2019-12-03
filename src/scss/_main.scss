@@ -53,3 +53,22 @@
 .page__section-traditional .container {
   border-bottom: 1px solid $border-primary;
 }
+
+.page__section-feedback {
+  .section-b-img {
+    img {
+      width: 100%;
+    }
+    
+  }
+  .section-b-content {
+    @include flex-column;
+    width: 70%;
+    .section-b-content--item {
+      padding: $pd-min 0;
+    }
+    img {
+      max-width: 280px;
+    }
+  }
+}
