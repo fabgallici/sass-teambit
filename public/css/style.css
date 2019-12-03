@@ -84,7 +84,17 @@
 }
 
 .page__section-traditional {
+  background-color: #FFE7D2;
   text-align: center;
+}
+
+.page__section-traditional .section-a-title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.page__section-traditional .section-a-mid {
+  padding-bottom: 50px;
 }
 
 .page__section-traditional .section-a-mid .section-a-mid--img {

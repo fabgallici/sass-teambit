@@ -21,8 +21,14 @@
 }
 
 .page__section-traditional {
+  background-color: $bg-primary;
   text-align: center;
+  .section-a-title {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .section-a-mid {
+    padding-bottom: 50px;
     .section-a-mid--img {
       height: 140px;
     }
