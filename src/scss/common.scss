@@ -32,6 +32,13 @@
   align-items: flex-start;
 }
 
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @mixin btn-primary {
   display: inline-block;
   padding: 5px 10px;

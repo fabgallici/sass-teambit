@@ -82,3 +82,37 @@
     float: right;
   }
 }
+
+.page__section-teambit {
+  @include flex-column-center;
+
+  .teambit-quote {
+    position: relative;
+    background: $bg-secondary;
+    padding: 20px 20px 20px 40px;
+    max-width: 628px;
+    margin:35px auto;
+    border: 1px solid $border-primary;
+    border-radius: 7px;
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+  .teambit-quote:after {
+    content: "";
+    display: block;
+    width: 37px;
+    height: 39px;
+    position: absolute;
+    top: -23px;
+    left: -1px;
+    background: url(https://teambit.io/wp-content/themes/teambeat/img/landing/quote.svg) center center no-repeat;
+    z-index: 1;
+  }
+  .teambit-quote__photo,
+  .teambit-quote__cite {
+    float: left;
+    margin-right: $mg-min;
+  }
+
+  
+}
