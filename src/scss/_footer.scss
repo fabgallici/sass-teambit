@@ -1,0 +1,12 @@
+.footer-teambit {
+  padding: $pd-base 0;
+  .footer-left {
+    @include flex-center;
+    img {
+      margin-right: $mg-min;
+    }
+  }
+  .footer-list-container {
+    padding: $pd-min;
+  }
+}

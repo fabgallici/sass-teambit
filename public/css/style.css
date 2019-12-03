@@ -241,6 +241,27 @@
   margin: 10px 0;
 }
 
+.footer-teambit {
+  padding: 50px 0;
+}
+
+.footer-teambit .footer-left {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.footer-teambit .footer-left img {
+  margin-right: 10px;
+}
+
+.footer-teambit .footer-list-container {
+  padding: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
