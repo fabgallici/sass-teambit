@@ -20,20 +20,25 @@
   }
 }
 
-.page__section-traditional {
+.page__section-traditional,
+.page__section-modern {
+  .container {
+    padding-bottom: $pd-base;
+  }    
   background-color: $bg-primary;
   text-align: center;
   .section-a-title {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: $pd-base;
+    padding-bottom: $pd-base;
   }
   .section-a-mid {
-    padding-bottom: 50px;
+    padding-bottom: $pd-base;
     .section-a-mid--img {
       height: 140px;
     }
     img {
       max-width: 140px;
+      max-height: 100%;
       // width: 100%;
     }
   }
@@ -43,4 +48,8 @@
     }
         
   }
+}
+
+.page__section-traditional .container {
+  border-bottom: 1px solid $border-primary;
 }
