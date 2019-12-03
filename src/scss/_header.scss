@@ -1,9 +1,22 @@
 .header_top {
-  @include fixed-top;
-}
-.header_top_container {
-  @include flex-between;
-  .nav {
+  @include fixed-top; 
+  
+  a {
+    color: $text-primary;
+  }
+  &_container {
     @include flex-between;
+    margin: 0 2rem;
+    border-bottom: 1px solid $border-primary;
+    .nav {
+      @include flex-between;
+    }
+    .navbar-menu {
+      @include flex-between;
+    }
+    .nav li,
+    .navbar-btn {
+      margin-left: 2rem;
+    }
   }
 }

@@ -9,15 +9,27 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+h3 {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+h4 {
+  display: inline-block;
+  font-size: 0.9rem;
+  // font-weight: bold;
+}
 li {
   list-style-type: none;
 }
-a {
+a,
+a:hover {
   text-decoration: none;
 }
 
 ul {
   // override bootstrap
   margin-bottom: 0; 
+}
+body {
+  font-family: 'Roboto', sans-serif;
 }
