@@ -2,7 +2,7 @@
 
 .header_top {
   @include fixed-top; 
-  
+  background-color: $bg-secondary;
   a {
     color: $text-primary;
   }
