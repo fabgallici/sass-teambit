@@ -26,7 +26,6 @@
   -webkit-box-align: center;
           align-items: center;
   height: 100%;
-  margin: 0 2rem;
   border-bottom: 1px solid #BDB5AF;
 }
 
@@ -61,7 +60,7 @@
   margin-bottom: 100px;
 }
 
-.g-container .g-container-left {
+.g-container__left {
   height: 100%;
   display: -webkit-box;
   display: flex;
@@ -74,12 +73,12 @@
           align-items: flex-start;
 }
 
-.g-container .g-container-right img {
+.g-container__right img {
   width: 100%;
   height: 100%;
 }
 
-.g-container .g-container-buttons {
+.g-container .g-container__buttons {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;

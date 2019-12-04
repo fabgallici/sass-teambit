@@ -8,7 +8,6 @@
   }
   &_container {
     @include flex-between;
-    margin: 0 2rem;
     border-bottom: 1px solid $border-primary;
     .nav {
       @include flex-between;

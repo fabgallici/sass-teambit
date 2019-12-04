@@ -4,17 +4,17 @@
   margin-top: 100px;
   margin-bottom: 100px;
 
-  .g-container-left {
+  &__left {
     height: 100%;
     @include flex-column;
   }
-  .g-container-right {
+  &__right {
     img {
       width: 100%;
       height: 100%;
     }
   }
-  .g-container-buttons {
+  .g-container__buttons {
     @include flex-center;
   }
 }
