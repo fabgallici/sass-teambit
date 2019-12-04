@@ -1,23 +1,25 @@
-
-
 .header_top {
-  @include fixed-top; 
+  @include fixed-top;
   background-color: $bg-secondary;
   a {
     color: $text-primary;
   }
-  &_container {
+  &__container {
     @include flex-between;
     border-bottom: 1px solid $border-primary;
-    .nav {
-      @include flex-between;
-    }
-    .navbar-menu {
-      @include flex-between;
-    }
-    .nav li,
-    .navbar-btn {
-      margin-left: 2rem;
-    }
+    
   }
+  &__nav {
+      display: none;
+      .nav {
+        @include flex-between;
+      }
+      .navbar-menu {
+        @include flex-between;
+      }
+      .nav li,
+      .navbar-btn {
+        margin-left: 2rem;
+      }
+    }
 }

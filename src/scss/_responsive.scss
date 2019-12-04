@@ -1,0 +1,10 @@
+@include media-md {
+  .header_top {
+    &__nav {
+      display: block;
+    }
+    .menu-btn {
+      display: none;
+    }
+  }
+}
