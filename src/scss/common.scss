@@ -76,6 +76,9 @@
 }
 
 /* --- MISC --- */
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
 
 .clearfix::after {
     clear: both;

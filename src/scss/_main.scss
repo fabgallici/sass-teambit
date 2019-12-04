@@ -121,6 +121,7 @@
 
 .my_btn-links {
   margin: 0 $mg-min;
+  @include transition-ease;
 }
 .my_mail_address {
   margin: $mg-min 0;

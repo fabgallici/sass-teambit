@@ -4,10 +4,17 @@
   a {
     color: $text-primary;
   }
+  &__logo {
+    h3 {
+    margin-bottom: 0;
+    margin-left: $mg-min;
+    vertical-align: middle;
+  }
+  } 
   &__container {
     @include flex-between;
     border-bottom: 1px solid $border-primary;
-    
+    padding: $pd-min 0;
   }
   &__nav {
       display: none;
@@ -20,6 +27,16 @@
       .nav li,
       .navbar-btn {
         margin-left: 2rem;
+        .sign-up-btn {
+          border: 1px solid $btn-bg-primary;
+          border-radius: 10px;
+          padding: 5px $pd-min;
+          @include transition-ease;
+          &:hover {
+            background-color: $btn-bg-hover;
+            color: $btn-secondary;
+          }
+        }
       }
     }
 }

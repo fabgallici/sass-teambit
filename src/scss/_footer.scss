@@ -8,5 +8,12 @@
   }
   .footer-list-container {
     padding: $pd-min;
+    a {
+      @include transition-ease;
+      color: $text-primary;
+      &:hover {
+        color: $text-hover;
+      }
+    }
   }
 }
