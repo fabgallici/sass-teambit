@@ -47,6 +47,36 @@
   color: $text-primary;
   border-radius: 15px;
 }
+
+/* --- MEDIA QUERY MIXIN --- */
+@mixin media-xs {
+  @media screen and (max-width: 575px) {
+    @content;
+  }
+}
+@mixin media-sm {
+  @media screen and (min-width: 576px) {
+    @content;
+  }
+}
+@mixin media-md {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media screen and (min-width: 992px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media screen and (min-width: 1200px) {
+    @content;
+  }
+}
+
+/* --- MISC --- */
+
 .clearfix::after {
     clear: both;
     display: block;
