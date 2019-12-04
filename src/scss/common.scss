@@ -1,3 +1,10 @@
+/* --- RESET --- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* --- MIXINS --- */
 @mixin fixed-top {
   position: fixed;
   top: 0;
@@ -48,6 +55,9 @@
   border-radius: 15px;
 }
 
+@mixin transition-ease {
+  transition: all 0.3s ease-in-out;
+}
 /* --- MEDIA QUERY MIXIN --- */
 @mixin media-xs {
   @media screen and (max-width: 575px) {
@@ -76,9 +86,6 @@
 }
 
 /* --- MISC --- */
-@mixin transition-ease {
-  transition: all 0.3s ease-in-out;
-}
 
 .clearfix::after {
     clear: both;
